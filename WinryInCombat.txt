@@ -1,0 +1,8 @@
+## Title: Winry In Combat
+## Author: Erica Z.
+## Description: Basic Addon to tell me when I am in combat. 
+## Version: 1.11.5
+## APIVersion: 100025 100026
+
+WinryInCombat.lua
+WinryInCombat.xml
