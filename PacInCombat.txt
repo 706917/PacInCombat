@@ -1,0 +1,8 @@
+## Title: Pacrooti In Combat
+## Author: Erica Z.
+## Description: Basic Addon to tell me when you are entering and leaving combat. 
+## Version: 1.0.0
+## APIVersion: 100025 100026
+
+PacInCombat.lua
+PacInCombat.xml
