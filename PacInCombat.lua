@@ -10,7 +10,7 @@ PacInCombat.version = "1.0.0"
 -- Initialize our Variables
 function PacInCombat:Initialize()
   PacInCombat.CreateSettingsWindow()
-  PacInCombat.savedVariables = ZO_SavedVars:NewAccountWide("PacInCombatSavedVariables", 1, nil, {})
+  PacInCombat.savedVariables = ZO_SavedVars:NewCharacterIdSettings("PacInCombatSavedVariables", 1, nil, {})
 
   enableDebug = PacInCombat.savedVariables.enableDebug
 
@@ -22,7 +22,6 @@ end
 
 
 function PacInCombat.OnAddOnLoaded(event, addonName)
-  -- The event fires each time *any* addon loads - but we only care about when our own addon loads.
   if addonName == PacInCombat.name then
     PacInCombat:Initialize()
 
@@ -37,10 +36,8 @@ end
 function PacInCombat.OnPlayerCombatState(event, inCombat)
 
     if inCombat ~= PacInCombat.inCombat then
-      -- The player's state has changed. Update the stored state...
       PacInCombat.inCombat = inCombat
    
-      -- ...and then announce the change.
       if inCombat then
         if PacInCombat.savedVariables.enableInCombat == true then
           d("Entering combat.")
