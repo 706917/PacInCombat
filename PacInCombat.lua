@@ -5,7 +5,7 @@ local LAM2 = LibStub:GetLibrary("LibAddonMenu-2.0")
 PacInCombat = {}
  
 PacInCombat.name = "PacInCombat"
-PacInCombat.version = "1.0.0"
+PacInCombat.version = "1.0.1"
  
 -- Initialize our Variables
 function PacInCombat:Initialize()
