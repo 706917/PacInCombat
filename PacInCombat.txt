@@ -1,26 +1,10 @@
 ## Title: Pacrooti In Combat
 ## Author: Erica Z.
 ## Description: Basic Addon to tell me when you are entering and leaving combat. 
-## Version: 1.0.1
-## APIVersion: 100027 100028
+## Version: 1.1.0
+## APIVersion: 100029 100030
 ## OptionalDependsOn: LibAddonMenu-2.0
 ## SavedVariables: PacInCombatSavedVariables
-
-Libs/LibStub/LibStub.lua
-Libs/LibAddonMenu-2.0/LibAddonMenu-2.0.lua
-Libs/LibAddonMenu-2.0/controls/panel.lua
-Libs/LibAddonMenu-2.0/controls/submenu.lua
-Libs/LibAddonMenu-2.0/controls/button.lua
-Libs/LibAddonMenu-2.0/controls/checkbox.lua
-Libs/LibAddonMenu-2.0/controls/colorpicker.lua
-Libs/LibAddonMenu-2.0/controls/custom.lua
-Libs/LibAddonMenu-2.0/controls/description.lua
-Libs/LibAddonMenu-2.0/controls/dropdown.lua
-Libs/LibAddonMenu-2.0/controls/editbox.lua
-Libs/LibAddonMenu-2.0/controls/header.lua
-Libs/LibAddonMenu-2.0/controls/slider.lua
-Libs/LibAddonMenu-2.0/controls/texture.lua
-Libs/LibAddonMenu-2.0/controls/iconpicker.lua
 
 PacInCombat.lua
 PacInCombat.xml

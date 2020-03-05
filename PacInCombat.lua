@@ -1,11 +1,11 @@
 -- Required Libraries
-local LAM2 = LibStub:GetLibrary("LibAddonMenu-2.0")
+local LAM2 = LibAddonMenu2
 
 -- Initialize our Namespace Table
 PacInCombat = {}
  
 PacInCombat.name = "PacInCombat"
-PacInCombat.version = "1.0.1"
+PacInCombat.version = "1.1.0"
  
 -- Initialize our Variables
 function PacInCombat:Initialize()
